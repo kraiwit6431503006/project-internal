@@ -1,0 +1,9 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-07-15',
+  modules: ['@nuxtjs/tailwindcss'],
+  css: [
+    '@mdi/font/css/materialdesignicons.min.css'
+  ],
+  devtools: { enabled: true }
+})
